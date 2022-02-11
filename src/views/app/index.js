@@ -50,7 +50,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/my-react-demo/">
         <Layout style={{ height: this.state.clientHeight - 1 }}>
           <Sider theme="light" collapsed={this.state.collapsed}>
             <img src={logo} className="App-logo" alt="logo" />
